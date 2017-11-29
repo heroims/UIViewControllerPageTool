@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = 'UIViewControllerPageTool'
-s.version               = '1.0'
+s.version               = '1.1'
 s.summary               = '方便快速定位最上层页面，前一个页面以及页面层级'
 s.homepage              = 'https://github.com/heroims/UIViewControllerPageTool'
 s.license               = { :type => 'MIT' , :file => 'README.md'}

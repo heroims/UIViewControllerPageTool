@@ -30,7 +30,7 @@
     
     self.view.backgroundColor=[UIColor whiteColor];
 
-    self.title=[NSString stringWithFormat:@"页面在第%zi层",self.pvl_pageViewLevel];
+    self.title=[NSString stringWithFormat:@"页面在第%zi层",self.pvl_pageViewLevel+1];
     
     UILabel *lbl=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, btn.frame.origin.y)];
     lbl.textColor=[UIColor blackColor];
