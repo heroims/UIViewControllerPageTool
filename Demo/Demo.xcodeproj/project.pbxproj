@@ -16,9 +16,10 @@
 		84AA00BB1FCEB7A100DC78D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00BA1FCEB7A100DC78D2 /* main.m */; };
 		84AA00C51FCEB7A100DC78D2 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00C41FCEB7A100DC78D2 /* DemoTests.m */; };
 		84AA00D01FCEB7A100DC78D2 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00CF1FCEB7A100DC78D2 /* DemoUITests.m */; };
-		84AA00E41FCEB7C800DC78D2 /* UIViewController+PageViewLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00DF1FCEB7C800DC78D2 /* UIViewController+PageViewLevel.m */; };
-		84AA00E51FCEB7C800DC78D2 /* UIViewController+PreviousController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00E11FCEB7C800DC78D2 /* UIViewController+PreviousController.m */; };
-		84AA00E61FCEB7C800DC78D2 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00E31FCEB7C800DC78D2 /* UIViewController+TopViewController.m */; };
+		84AA00F21FCEC43500DC78D2 /* UIViewController+PreviousController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00EB1FCEC43400DC78D2 /* UIViewController+PreviousController.m */; };
+		84AA00F31FCEC43500DC78D2 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00EE1FCEC43400DC78D2 /* UIViewController+TopViewController.m */; };
+		84AA00F41FCEC43500DC78D2 /* UIViewController+PageViewLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00F11FCEC43400DC78D2 /* UIViewController+PageViewLevel.m */; };
+		84AA00F81FCED16500DC78D2 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00F71FCED16500DC78D2 /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +58,17 @@
 		84AA00CB1FCEB7A100DC78D2 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AA00CF1FCEB7A100DC78D2 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		84AA00D11FCEB7A100DC78D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84AA00DE1FCEB7C800DC78D2 /* UIViewController+PageViewLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageViewLevel.h"; sourceTree = "<group>"; };
-		84AA00DF1FCEB7C800DC78D2 /* UIViewController+PageViewLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageViewLevel.m"; sourceTree = "<group>"; };
-		84AA00E01FCEB7C800DC78D2 /* UIViewController+PreviousController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PreviousController.h"; sourceTree = "<group>"; };
-		84AA00E11FCEB7C800DC78D2 /* UIViewController+PreviousController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PreviousController.m"; sourceTree = "<group>"; };
-		84AA00E21FCEB7C800DC78D2 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
-		84AA00E31FCEB7C800DC78D2 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
 		84AA00E71FCEB7D000DC78D2 /* UIViewControllerPageTool.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = UIViewControllerPageTool.podspec; path = ../../UIViewControllerPageTool.podspec; sourceTree = "<group>"; };
+		84AA00E81FCEC3C200DC78D2 /* UIViewControllerPageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerPageTool.h; sourceTree = "<group>"; };
+		84AA00EA1FCEC43400DC78D2 /* UIViewController+PreviousController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PreviousController.h"; sourceTree = "<group>"; };
+		84AA00EB1FCEC43400DC78D2 /* UIViewController+PreviousController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PreviousController.m"; sourceTree = "<group>"; };
+		84AA00ED1FCEC43400DC78D2 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
+		84AA00EE1FCEC43400DC78D2 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
+		84AA00F01FCEC43400DC78D2 /* UIViewController+PageViewLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageViewLevel.h"; sourceTree = "<group>"; };
+		84AA00F11FCEC43400DC78D2 /* UIViewController+PageViewLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageViewLevel.m"; sourceTree = "<group>"; };
+		84AA00F51FCEC4ED00DC78D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84AA00F61FCED16500DC78D2 /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		84AA00F71FCED16500DC78D2 /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +127,14 @@
 				84AA00AC1FCEB7A000DC78D2 /* FirstViewController.m */,
 				84AA00AE1FCEB7A000DC78D2 /* SecondViewController.h */,
 				84AA00AF1FCEB7A000DC78D2 /* SecondViewController.m */,
+				84AA00F61FCED16500DC78D2 /* PushViewController.h */,
+				84AA00F71FCED16500DC78D2 /* PushViewController.m */,
 				84AA00B11FCEB7A000DC78D2 /* Main.storyboard */,
 				84AA00B41FCEB7A000DC78D2 /* Assets.xcassets */,
 				84AA00B61FCEB7A100DC78D2 /* LaunchScreen.storyboard */,
 				84AA00B91FCEB7A100DC78D2 /* Info.plist */,
 				84AA00BA1FCEB7A100DC78D2 /* main.m */,
+				84AA00F51FCEC4ED00DC78D2 /* PrefixHeader.pch */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -152,15 +160,40 @@
 		84AA00DD1FCEB7C800DC78D2 /* UIViewControllerPageTool */ = {
 			isa = PBXGroup;
 			children = (
-				84AA00DE1FCEB7C800DC78D2 /* UIViewController+PageViewLevel.h */,
-				84AA00DF1FCEB7C800DC78D2 /* UIViewController+PageViewLevel.m */,
-				84AA00E01FCEB7C800DC78D2 /* UIViewController+PreviousController.h */,
-				84AA00E11FCEB7C800DC78D2 /* UIViewController+PreviousController.m */,
-				84AA00E21FCEB7C800DC78D2 /* UIViewController+TopViewController.h */,
-				84AA00E31FCEB7C800DC78D2 /* UIViewController+TopViewController.m */,
+				84AA00EF1FCEC43400DC78D2 /* PageViewLevel */,
+				84AA00E91FCEC43400DC78D2 /* PreviousController */,
+				84AA00EC1FCEC43400DC78D2 /* TopViewController */,
+				84AA00E81FCEC3C200DC78D2 /* UIViewControllerPageTool.h */,
 			);
 			name = UIViewControllerPageTool;
 			path = ../../UIViewControllerPageTool;
+			sourceTree = "<group>";
+		};
+		84AA00E91FCEC43400DC78D2 /* PreviousController */ = {
+			isa = PBXGroup;
+			children = (
+				84AA00EA1FCEC43400DC78D2 /* UIViewController+PreviousController.h */,
+				84AA00EB1FCEC43400DC78D2 /* UIViewController+PreviousController.m */,
+			);
+			path = PreviousController;
+			sourceTree = "<group>";
+		};
+		84AA00EC1FCEC43400DC78D2 /* TopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84AA00ED1FCEC43400DC78D2 /* UIViewController+TopViewController.h */,
+				84AA00EE1FCEC43400DC78D2 /* UIViewController+TopViewController.m */,
+			);
+			path = TopViewController;
+			sourceTree = "<group>";
+		};
+		84AA00EF1FCEC43400DC78D2 /* PageViewLevel */ = {
+			isa = PBXGroup;
+			children = (
+				84AA00F01FCEC43400DC78D2 /* UIViewController+PageViewLevel.h */,
+				84AA00F11FCEC43400DC78D2 /* UIViewController+PageViewLevel.m */,
+			);
+			path = PageViewLevel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +332,11 @@
 				84AA00B01FCEB7A000DC78D2 /* SecondViewController.m in Sources */,
 				84AA00AA1FCEB7A000DC78D2 /* AppDelegate.m in Sources */,
 				84AA00BB1FCEB7A100DC78D2 /* main.m in Sources */,
-				84AA00E51FCEB7C800DC78D2 /* UIViewController+PreviousController.m in Sources */,
-				84AA00E61FCEB7C800DC78D2 /* UIViewController+TopViewController.m in Sources */,
-				84AA00E41FCEB7C800DC78D2 /* UIViewController+PageViewLevel.m in Sources */,
+				84AA00F21FCEC43500DC78D2 /* UIViewController+PreviousController.m in Sources */,
+				84AA00F41FCEC43500DC78D2 /* UIViewController+PageViewLevel.m in Sources */,
 				84AA00AD1FCEB7A000DC78D2 /* FirstViewController.m in Sources */,
+				84AA00F81FCED16500DC78D2 /* PushViewController.m in Sources */,
+				84AA00F31FCEC43500DC78D2 /* UIViewController+TopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -480,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
