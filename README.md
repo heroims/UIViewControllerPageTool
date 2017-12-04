@@ -1,6 +1,8 @@
 # UIViewControllerPageTool![](http://cocoapod-badges.herokuapp.com/v/UIViewControllerPageTool/badge.png) ![](http://cocoapod-badges.herokuapp.com/p/UIViewControllerPageTool/badge.png)  [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 Easy to get top viewcontroller ,previous viewcontroller and page level.(方便获取最上层页面，前一个页面以及页面层级)
 
+
+![Screenshot1](http://heroims.github.io/UIViewControllerPageTool/Untitled.gif "Screenshot1") 
 ## Usage
 ```
 @interface UIViewController (PageViewLevel)
